@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.3s linear; /* *?Resetting default styling */
+}
+
+body {
+	font-family:
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		sans-serif;
+}
+/* !Navbar Styling */
+nav {
+	display: table;
+	width: 100%;
+	padding: 22px 6%;
+	background: white;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 28px;
+	font-weight: 700;
+	color: #1e40af;
+	width: 180px;
+}
+
+.nav-links {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.nav-links ul {
+	display: inline-block;
+	list-style: none;
+}
+
+.nav-links li {
+	position: relative;
+	display: inline-block;
+	margin: 0 28px;
+	font-size: 17px;
+	color: #1e40af;
+	font-weight: 500;
+	cursor: pointer;
+	transition: color 0.35s ease;
+	padding-bottom: 4px;
+}
+
+.nav-links li::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2.5px;
+	background-color: #2563eb;
+	transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.nav-links li:hover {
+	color: #2563eb;
+}
+
+.nav-links li:hover::after {
+	width: 100%;
+}
+
+.username {
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+	width: 180px;
+}
+
+.username div {
+	background-color: #dbeafe;
+	color: #1e40af;
+	padding: 10px 28px;
+	border-radius: 50px;
+	font-weight: 600;
+	font-size: 15px;
+	display: inline-block;
+	cursor: pointer;
+}
+.username:hover {
+	transform: translateY(-3px);
+	filter: drop-shadow(30px 40px 55px rgba(0, 0, 0, 0.25));
+}
+
+/* !HERO SECTION STYLING */
+.hero {
+	height: 100vh;
+	display: table;
+	width: 100%;
+	padding-top: 85px;
+	background: white;
+}
+
+.left,
+.right {
+	display: table-cell;
+	width: 50%;
+	vertical-align: middle;
+	padding: 0 6%;
+}
+
+.left h1 {
+	font-size: 3.4rem;
+	line-height: 1.05;
+	color: #1f2937;
+	margin-bottom: 20px;
+}
+
+.left .blue-text {
+	color: #2563eb;
+}
+
+.left p {
+	font-size: 1.15rem;
+	color: #64748b;
+	line-height: 1.6;
+	max-width: 520px;
+	margin: 30px 0 40px;
+}
+
+.btn {
+	background: #2563eb;
+	color: white;
+	border: none;
+	padding: 16px 36px;
+	border-radius: 9999px;
+	font-size: 1.1rem;
+	font-weight: 600;
+	cursor: pointer;
+	box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
+	transition: all 0.3s;
+}
+
+.btn:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 15px 30px rgba(37, 99, 235, 0.45);
+}
+
+.right img {
+	max-width: 68%;
+	height: auto;
+	filter: drop-shadow(30px 40px 55px rgba(0, 0, 0, 0.25));
+	display: block;
+	margin: 0 auto;
+	border-radius: 25px;
+}
