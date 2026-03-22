@@ -1,62 +1,37 @@
-# 🧺 Laundry Service Website
+# Laundry Service Hero Section Assignment
 
-A modern and clean **Laundry Service landing page** built using **HTML and CSS**. This project focuses on layout design without using Flexbox, Positioning, or Overflow tricks, strictly following structured layout techniques like `display: table`.
+**Submitted by:** Pratik Suthar
 
----
+## About This Project
 
-## ⚙️ How to Run
+This is my submission for the Laundry Service website Hero Section assignment.
 
-1. Download or clone the repository
-2. Make sure folder structure is maintained
-3. Open `index.html` in your browser
+I already have good experience in HTML, CSS, JavaScript, and React JS development. I'm completing this assignment to skill up and strengthen my core CSS layout skills. Even though I'm comfortable with modern frameworks like React, practicing with constraints (like using only display:inline-block instead of Flexbox) helps me improve my fundamentals and become a better frontend developer.
 
----
+## Features Implemented
 
-## 🚀 Features
+- **Navbar**:
+    - Logo perfectly on the left
+    - Navigation links (Home, Services, About Us, Contact Us) perfectly centered in the middle
+    - Username button on the right
+    - Used only display:inline-block for the menu items (exactly as required)
+    - Smooth sliding underline animation that appears from left on hover
 
-- ✅ Fixed responsive navbar
-- ✅ Smooth hover animations
-- ✅ Clean hero section design
-- ✅ Call-to-action button
-- ✅ Structured layout using `display: table`
-- ✅ Aesthetic UI with shadows and transitions
+- **Hero Section**:
+    - Two-column layout (text on left, image on right)
+    - Full screen height using 100vh viewport unit (no scroll)
+    - Clean professional design matching the sample
 
----
+- **Image**: washing-machine.png (downloaded from Freepik and kept locally in assets folder)
 
-## 🛠️ Tech Stack
+## Technologies Used
 
 - HTML5
-- CSS3 (No Flexbox, No Positioning, No Overflow)
+- Pure CSS3 (only allowed properties: display:inline-block, viewport units, etc.)
+- No Flexbox, no frameworks
 
----
+## What I Learned / Skill Up
 
-## 📂 Project Structure
+This assignment was great practice for building exact layouts using basic CSS. I improved my understanding of positioning with inline-block, clearfix/float handling, and making full-screen sections with vh/vw units. It reminded me why fundamentals matter even when you already know advanced tools like React.
 
-```
-Laundry-Service/
-│
-├── index.html
-├── styles/
-│   └── style.css
-└── img/
-    └── Washing Machine.jpg
-```
-
----
-
-## 📸 Preview
-
-- Hero section with marketing content
-- Navigation bar with hover effects
-- Clean and minimal UI design
-
----
-
-## 💡 Key Learnings
-
-- Using `display: table` and `table-cell` for layout
-- Creating hover underline animations
-- Designing without Flexbox (constraint-based design)
-- Applying shadows and smooth transitions for better UI
-
----
+**Date:** March 2026
