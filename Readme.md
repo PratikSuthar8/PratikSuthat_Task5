@@ -2,6 +2,12 @@
 
 ---
 
+## 🔗 Connect
+
+More projects and implementations can be found on my GitHub:
+
+- https://github.com/PratikSuthar8
+
 ## ▶️ How to Run
 
 1. Download or clone the repository
